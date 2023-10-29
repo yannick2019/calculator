@@ -2,11 +2,41 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="Calculator application">
+    <link rel="stylesheet" href="style.css">
     <title>Calculator App</title>
   </head>
   <body>
+    <main class="calculator">
+      <div class="screen">0</div>
+      <br>
+      <section class="buttons">
+        <button>7</button>
+        <button>8</button>
+        <button>9</button>
+        <button>+</button>
+        <button>4</button>
+        <button>5</button>
+        <button>6</button>
+        <button>-</button>
+        <button>1</button>
+        <button>2</button>
+        <button>3</button>
+        <button>*</button>
+        <button>0</button>
+        <button>.</button>
+        <button>/</button>
+        <button id="equals">=</button>
+      </section>
+      <br>
+      <section class="clear-and-ce">
+        <button id="ce">CE</button>
+        <button id="clear">CLEAR</button>
+      </section>      
+    </main>
+
     <div id="app"></div>
     <script type="module" src="/main.js"></script>
   </body>
