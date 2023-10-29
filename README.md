@@ -17,7 +17,7 @@ For simple calculations.
 ![screen shot](./images/calculator.png)
 
 ## See it live
-Click [here](https://github.com/yannick2019/calculator) to see the live version.
+Click [here](https://yannick2019.github.io/calculator/) to see the live version.
 
 ## Technologies used
 - Vite
