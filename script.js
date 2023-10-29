@@ -29,5 +29,3 @@ export function calculate(button) {
     screenDisplay.textContent = accumulativeCalculation;
   }
 }
-
-// Math.round(math.evaluate(accumulativeCalculation) * 100) / 100;
